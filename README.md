@@ -7,7 +7,7 @@ An open-source project that makes the debian booting screen look more beginer-fr
 Python 3 is pre-installed on debian 13, if you're using another distro just run the command:
  sudo apt install python3
 
-Download skipgrup.py from the source code.
+Download the latest .zip file from the release file and extract it
 
 Open the terminal in the folder you downloaded the file using the cd command or by going to the folder using the files app, right clicking and choosing open in terminal.
 
