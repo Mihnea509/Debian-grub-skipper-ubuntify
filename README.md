@@ -1,9 +1,19 @@
 # Debian-grub-skipper-ubuntify
-An open-source project that makes the debian booting screen look more beginer-friendly. This project is made for the noobs that transfer from ubuntu (which we all know steals your data) to Debian. Debian's boot screen might be scary for an ubuntu user, so thats why this project makes the boot screen almost exactly like ubuntu's.
+READ ALL OF THIS TUTORIAL BEFORE DOING ANYTHING. An open-source project that makes the debian booting screen look more beginer-friendly. This project is made for the noobs that transfer from ubuntu (which we all know steals your data) to Debian. Debian's boot screen might be scary for an ubuntu user, so thats why this project makes the boot screen almost exactly like ubuntu's.
 # !!! Important
   This project is created for *Debian 13* and it hasn't been tested on other versions or distros of Debian. Using anything other that *Debian 13* is not recommended, do it at your own risk
 
-# Tutorial
+# Automatic Tutorial
+For the automatic tutorial you hate to install curl:
+  sudo apt install curl
+Python 3 is pre-installed on debian 13, if you're using another distro just run the command:
+  sudo apt install python3
+
+  Just run this command in the terminal and then reboot:
+    curl -L -o repo.zip "https://github.com/Mihnea509/Debian-grub-skipper-ubuntify/releases/download/debian/Debian-grub-skipper.zip" && unzip -o repo.zip -d repo && cd repo && sudo python3 skipgrub.py
+
+
+# Manual Tutorial
 Python 3 is pre-installed on debian 13, if you're using another distro just run the command:
  sudo apt install python3
 
