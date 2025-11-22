@@ -12,8 +12,8 @@ Python 3 is pre-installed on debian 13, if you're using another distro just run 
   Just run this command in the terminal:
     
   curl -L -o repo.zip "https://github.com/Mihnea509/Debian-grub-skipper-ubuntify/releases/download/debian/Debian-grub-skipper.zip" && unzip -o repo.zip -d repo && cd repo && sudo python3 skipgrub.py
-  
-  Now reboot your PC and watch how that ugly boot screen turns into a fancy scrolling wheel.
+
+Now reboot your PC and watch how that ugly boot screen turns into a fancy scrolling wheel.
 
 
 # Manual Install
